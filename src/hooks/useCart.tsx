@@ -131,5 +131,6 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
 export function useCart(): CartContextData {
   const context = useContext(CartContext);
 
+  
   return context;
 }
